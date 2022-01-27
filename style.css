@@ -1,0 +1,54 @@
+body {
+    font-size: 16px;
+    background-color: rgb(193, 224, 247);
+}
+
+#Inicio {
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    font-style: italic;
+    color: rgb(197, 159, 201);
+}
+    
+#Info {
+    color: rgb(197, 159, 201);
+}
+
+#Habilidades {
+    color: rgb(197, 159, 201)
+}
+
+#Music {
+    color: rgb(197, 159, 201);
+    text-align: center;
+}
+
+#Lyrics {
+    background-color: rgb(207, 186, 225);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(197, 159, 201);
+}
+
+.hab1 {
+    font-size: 25px;
+}
+
+.hab2 {
+    font-size: 30px;
+}
+
+.hab3 {
+    font-size: 2em;
+}
+
+.hab4 {
+    font-size: 25px;
+}
+
+ul {
+    line-height: 50px;
+}
