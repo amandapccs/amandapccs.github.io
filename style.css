@@ -1,54 +1,83 @@
+* {
+    margin: 0;
+}
+
 body {
-    font-size: 16px;
+    font-size: 20px;
     background-color: rgb(193, 224, 247);
+    font-family: 'Cormorant Infant', serif;
+
 }
 
 #Inicio {
-    font-family:sans-serif;
+    font-family: 'Sacramento', cursive;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 3em;
     font-style: italic;
     color: rgb(197, 159, 201);
+    text-align: center;
+    margin-top: 10px;
+}
+
+#photo-me {
+    border-radius: 20px;
+    display: inline-block;
+    width: 450px;
 }
     
-#Info {
-    color: rgb(197, 159, 201);
+.Info {
+    margin-left: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    min-height: 50vh;
+}
+
+.info-sessions {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    font-size: 23px;
+    margin-left: 10px;
 }
 
 #Habilidades {
     color: rgb(197, 159, 201)
 }
 
-#Music {
-    color: rgb(197, 159, 201);
+.FindMe h2 {
+    color: rgb(96, 144, 180);
+    font-weight: 600;
     text-align: center;
 }
 
-#Lyrics {
+.FindMe ul {
+    list-style-type: none;
+}
+
+.FindMe {
     background-color: rgb(207, 186, 225);
+    margin: 0;
+    margin-top: 10px;
     text-align: center;
+    padding: 5px;
 }
 
-h3 {
+h3, h2 {
     color: rgb(197, 159, 201);
-}
-
-.hab1 {
-    font-size: 25px;
-}
-
-.hab2 {
-    font-size: 30px;
-}
-
-.hab3 {
-    font-size: 2em;
-}
-
-.hab4 {
-    font-size: 25px;
 }
 
 ul {
-    line-height: 50px;
+    line-height: 45px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-top: 10px;
 }
