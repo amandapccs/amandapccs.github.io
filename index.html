@@ -1,80 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body {
-    font-size: 16px;
-    background-color: rgb(193, 224, 247);
-    font-family: 'Cormorant Infant', serif;
-
-}
-
-#Inicio {
-    font-family: 'Sacramento', cursive;
-    font-weight: 600;
-    font-size: 2em;
-    font-style: italic;
-    color: rgb(197, 159, 201);
-}
-
-#ChatNoir {
-    border-radius: 20px;
-}
-    
-#Info {
-    color: rgb(197, 159, 201);
-}
-
-p {
-    font-size: 23px;
-}
-
-#Habilidades {
-    color: rgb(197, 159, 201)
-}
-
-#Music {
-    color: rgb(197, 159, 201);
-    text-align: center;
-}
-
-#Lyrics {
-    background-color: rgb(207, 186, 225);
-    text-align: center;
-    padding: 5px;
-}
-
-h3 {
-    color: rgb(197, 159, 201);
-}
-
-.hab1 {
-    font-size: 25px;
-}
-
-.hab2 {
-    font-size: 25px;
-}
-
-.hab3 {
-    font-size: 25px;
-}
-
-.hab4 {
-    font-size: 25px;
-}
-
-ul {
-    line-height: 45px;
-}
-    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Sacramento&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+    <link rel="stylesheet" href="style.css" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,51 +16,44 @@ ul {
 </head>
 <body>
     <h1 id="Inicio">Amanda Paula Celina de Castro Soares</h1>
-    <img src="me.jpg" alt="Imagem de Chat Noir de Miraculous Ladybug" id="ChatNoir" width="400px">
-    <h2 id="Info">Algumas informações sobre mim:</h2>
-    <p>Oi! Me chamo Amanda e nasci no Brasil, mais especificamente Brasília - DF. Atual residente do Guará I e adoro meu bairro. <br>
-    Amo animais e tenho um ponto fraco para gatos, fato bastante evidente ao entrar na minha casa, pois tenho 3 gatinhos! </p>
-    <h2 id="Habilidades">Algumas habilidades que possuo:</h2>
-    <ul>
-        <li class="hab1">Sou uma pessoa tranquila e empática</li>
-        <li class="hab2">Sou dedicada ao que estudo</li>
-        <li class="hab3">Reconheço que errar é necessário</li>
-        <li class="hab4"><strong>Faço bons planejamentos para o meu dia render</strong> </li>
-    </ul>
-    <h2 id="Music">Minha música do momento é <i><a href="https://www.youtube.com/watch?v=5mKX21of0sM&ab_channel=HeistorHit" target="_blank">What Once Was - Her's</a></i><br> confira a letra dessa música:</h2>
-    <p id="Lyrics"><i>I guess I knew this would happen to you<br>
-Inside I did, but I refuse to know the truth<br>
-I'm heading back inside to sit at home with you<br>
-I think I know what's wrong<br>
-My friends put on their bravest face<br>
-Their tales between their legs, something's out of place<br>
-I bet their mothers let them know what I'm about to face<br>
-Keep your mouth zipped, son<br>
-Baby, I've been there before<br>
-I was at the point where all I really wanted was someone<br>
-And now I'm still hanging on<br>
-I was at the end of every tether waiting for what once was<br>
-Tell me all important stuff<br>
-What's your favorite colour?<br>
-What makes you so tough?<br>
-Please don't let go when you've had enough<br>
-I'm on my knees<br>
-Baby, I've been there before<br>
-I was at the point where all I really wanted was someone<br>
-And now I'm still hanging on<br>
-I was at the end of every tether waiting for what once was<br>
-Baby, I've been there before<br>
-I was at the point where all I really wanted was someone<br>
-And now I'm still hanging on<br>
-I was at the end of every tether waiting for what once was<br>
-Waiting for my love<br>
-Waiting for-</i><br></p>
+
+    <div class="Info">
+      <img src="me.jpg" alt="Foto de Amanda Soares" class="info-sessions" id="photo-me">
+
+        <div class="info-sessions">
+          <h2>Saiba um pouco sobre mim:</h2>
+          <p>
+              Oi, meu nome é Amanda Soares, tenho 26 anos e atualmente estou estudando para me tornar uma <strong>Desenvolvedora Web Full-Stack</strong>, na <a href="betrybe.com">Trybe</a>. <br>
+              Nasci no Brasil e moro em sua capital, Brasília - DF. Sempre fui fascinada pelo mundo da tecnologia, especialmente no que se refere sobre internet e video-games. Amo animais e tenho um ponto fraco por gatos (inclusive, tenho três lindos bichanos)! <br>
+          </p>
+        </div>
+
+        <div class="info-sessions">
+          <h2 id="Habilidades">Soft skills:</h2>
+          <ul>
+              <li>Sou uma pessoa empática;</li>
+              <li>Sou persistente e determinada para estudar;</li>
+              <li>Reconheço que errar é necessário;</li>
+              <li>Faço bons planejamentos e tenho boa gestão do meu tempo.</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="FindMe">
+      <h2>Onde me encontrar:</h2>
+      <ul>
+        <li> <a href="https://www.linkedin.com/in/amanda-soares-a5b084200/" target="_blank">LinkedIn</a></li>
+        <li> <a href="https://github.com/amandapccs" target="_blank">GitHub</a></li>
+      </ul>
+
+    </div>
 
     <h3>Links para acesso no Portfólio:</h3>
+
     <ul>
         <li><a href="#Inicio">Voltar para início</a></li>
-        <li><a href="#ChatNoir">Voltar para minha imagem</a></li>
-        <li><a href="#Info">Voltar para informações</a></li>
+        <li><a href="#photo-me">Voltar para minha imagem</a></li>
+        <li><a href=".Info">Voltar para informações</a></li>
         <li><a href="#Habilidades">Voltar para habilidades</a></li>
 
     </ul>
